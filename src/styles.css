@@ -1,0 +1,70 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.tab_page{
+  display: none;
+}
+
+.export {
+  text-align: center;
+}
+
+p, li {
+  text-align: left;
+  padding-left: 10px;
+  /* margin: 0; */
+}
+
+th {
+  background-color: CadetBlue;
+}
+
+tr {
+  background-color: Azure;
+}
+
+table {
+  width: 100%;
+}
+
+td {  
+  border: 1px solid grey;
+}
+
+input, select {
+  width: calc(100% - 10px);
+}
+
+select {
+  color: blue;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+thead tr th:first-child {
+  width: 12%;
+}
+
+.collapsible-button{
+  cursor: pointer;
+  width: 100%;
+  background: Silver;
+}
+
+.php_box {
+  border: 2px solid grey;
+  background: Azure;
+}
+
+.export {
+  border: 2px solid grey;
+  width: 40%;
+  margin: auto;
+}
